@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="12.1">
+  <zoom_level>10</zoom_level>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>60</x>
+      <y>0</y>
+      <w>240</w>
+      <h>320</h>
+    </coordinates>
+    <panel_attributes>TestController
+--
+public float walkSpeed
+public float trotSpeed
+public float runSpeed
+public GameObject CameraMain
+float gravity
+float speedSmoothing
+float rotateSpeed
+float trotAfterSeconds
+private float lockCameraTimer
+private Vector3 moveDirection
+private float verticalSpeed
+private float moveSpeed
+private bool movingBack
+private bool isMoving
+private float walkTimeStart
+private bool isControllable
+private CollisionFlags collisionFlags</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>990</x>
+      <y>370</y>
+      <w>230</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>Inventory
+--
+public enum ItemType
+public ItemType TypeofItem
+Inventory InventoryScript
+ParticleSystem SmokeEffect
+public bool ItemBeingUsed</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>130</x>
+      <y>330</y>
+      <w>210</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>DataManager
+--
+Public String FileName
+Private static bool created
+Public bool Change
+string PlayerName
+Public int Version
+Public Float Level
+Public EXP
+Public Coins
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>100</x>
+      <y>530</y>
+      <w>230</w>
+      <h>360</h>
+    </coordinates>
+    <panel_attributes>TestCameraController
+--
+public Collider Target
+Transform _Target
+public Transform cameraTransform
+TestController Controller
+new public Camera camera
+float ClickRepeatTime
+float ClickTime
+public float rotationUpdateSpeed
+public float height
+public float distance
+float heightSmoothLag
+float snapMaxSpeed
+float snapSmoothLag
+private Vector3 headOffset
+private Vector3 centerOffset
+private float targetHeight
+private float heightVelocity
+float SetAngle
+bool FirstPerson=false
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>630</x>
+      <y>0</y>
+      <w>210</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>Respawn
+--
+PlayersStat StatOfPlayer
+GameObject PlayerObject
+public bool PlayerIsDead
+Vector3 StartPos
+Camera PlayerCamera;
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>380</x>
+      <y>0</y>
+      <w>210</w>
+      <h>310</h>
+    </coordinates>
+    <panel_attributes>PlayerStat
+--
+public bool Alive
+public float Level
+int Exp
+int ExpRequired
+int Damage
+public int Coins
+public bool Blocking
+public float MaxHealth
+public float Health
+public AudioClip DeathScream
+DataManager DataSource
+CombatScript Combat
+public GUIStyle StatStyle;
+public Texture2D HealthBar;
+public Texture2D ExpBar;
+public Texture2D InfoBar;
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>880</x>
+      <y>20</y>
+      <w>210</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>SwitchCamera
+--
+public GameObject OculusRift
+public GameObject Cameara
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>630</x>
+      <y>140</y>
+      <w>210</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>CombatScript
+--
+public int Damage
+float Distance
+float KickDistance
+float PunchDistance
+float AttacRepeatkTime
+float AttackTime
+bool Blocking 
+bool RightPunch
+bool RightKick
+public GameObject Player
+PlayersStat Stats;</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>720</x>
+      <y>690</y>
+      <w>280</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>items
+--
+ public List&lt;GameObject&gt; ConsumableList </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>390</x>
+      <y>370</y>
+      <w>230</w>
+      <h>360</h>
+    </coordinates>
+    <panel_attributes>Enemy
+--
+public int Level
+int Exp
+public int Health = 100
+bool Alive=true
+float Distance
+GameObject Target
+float LookDistance
+float CharacterRange
+float AttackRange
+public float MoveSpeed
+float Damping
+float Gravity
+Vector3 MoveDirection
+CharacterController Controller
+float Damage
+float AttacRepeatkTime
+float AttackTime
+public AudioClip DeathAudio
+public AudioClip HitAudio</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>560</x>
+      <y>30</y>
+      <w>90</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>30;50;70;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>560</x>
+      <y>170</y>
+      <w>90</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>30;30;70;50</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>650</x>
+      <y>390</y>
+      <w>230</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>Inventory
+--
+public List&lt;int&gt; Consumables
+public List&lt;Sprite&gt; ConsumablesSprite = new List&lt;Sprite&gt;();
+List&lt;GameObject&gt; Dpad
+Items ItemsScript
+public Texture2D Box
+public Texture2D iBox
+public GameObject ItemUsed
+public GameObject Player
+GameObject ItemSelected
+int ConsumableIndex
+Consumable ConsumableScript</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>850</x>
+      <y>420</y>
+      <w>160</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>30;30;140;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>850</x>
+      <y>480</y>
+      <w>160</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>140;40;30;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>390</x>
+      <y>280</y>
+      <w>60</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>40;30;30;90</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>750</x>
+      <y>580</y>
+      <w>80</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>30;30;60;110</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>310</x>
+      <y>120</y>
+      <w>90</w>
+      <h>230</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>30;210;70;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>900</x>
+      <y>220</y>
+      <w>210</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Settings
+--
+public static bool OculusRift
+public static float Volume
+public enum Dificultly 
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>950</x>
+      <y>120</y>
+      <w>100</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>80;100;30;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>1030</x>
+      <y>650</y>
+      <w>210</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Pause
+--
+bool IsPaused
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>520</x>
+      <y>300</y>
+      <w>130</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>30;70;110;30</additional_attributes>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>370</x>
+      <y>750</y>
+      <w>280</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Consumable
+--
+public enum ItemType
+public ItemType TypeofItem
+Inventory InventoryScript
+ParticleSystem SmokeEffect
+public bool ItemBeingUsed</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Relation</type>
+    <coordinates>
+      <x>610</x>
+      <y>580</y>
+      <w>110</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>90;30;30;170</additional_attributes>
+  </element>
+</diagram>

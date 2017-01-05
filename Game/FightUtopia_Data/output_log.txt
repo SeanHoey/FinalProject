@@ -1,0 +1,82 @@
+Initialize engine version: 4.6.4f1 (99f88340878d)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 10.1]
+    Renderer: Intel(R) HD Graphics 3000 (ID=0x116)
+    Vendor:   Intel
+    VRAM:     128 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\FightUtopia\Game\FightUtopia_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\FightUtopia\Game\FightUtopia_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\FightUtopia\Game\FightUtopia_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\FightUtopia\Game\FightUtopia_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\FightUtopia\Game\FightUtopia_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading D:\FightUtopia\Game\FightUtopia_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: D:\FightUtopia\Game\FightUtopia_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\FightUtopia\Game\FightUtopia_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.057 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+desktop: 1600x900 60Hz; virtual: 3520x1080 at 0,0
+Platform assembly: D:\FightUtopia\Game\FightUtopia_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\FightUtopia\Game\FightUtopia_Data\Managed\System.dll (this message is harmless)
+<RI.Hid> Failed to create device file:
+ 2 The system cannot find the file specified.
+
+ 
+(Filename:  Line: 54)
+
+<RI.Hid> Failed to create device file:
+ 2 The system cannot find the file specified.
+
+ 
+(Filename:  Line: 54)
+
+UnloadTime: 0.570616 ms
+Platform assembly: D:\FightUtopia\Game\FightUtopia_Data\Managed\System.Xml.dll (this message is harmless)
+UnloadTime: 0.449001 ms
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 2014.
+Total: 0.875937 ms (FindLiveObjects: 0.080563 ms CreateObjectMapping: 0.021552 ms MarkObjects: 0.285308 ms  DeleteObjects: 0.013854 ms)
+
+4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+5
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+3
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+9
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+
+6
+ 
+(Filename: C:/buildslave/unity/build/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 56)
+

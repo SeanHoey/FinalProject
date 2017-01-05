@@ -1,0 +1,12 @@
+D:\FightUtopia\FightUtopia\Temp\bin\Debug\Assembly-CSharp.dll
+D:\FightUtopia\FightUtopia\Temp\bin\Debug\Assembly-CSharp.pdb
+D:\FightUtopia\FightUtopia\Temp\bin\Debug\UnityEditor.dll
+D:\FightUtopia\FightUtopia\Temp\bin\Debug\UnityEngine.dll
+D:\FightUtopia\FightUtopia\Temp\bin\Debug\UnityEngine.UI.dll
+D:\FightUtopia\FightUtopia\Temp\bin\Debug\Mono.Cecil.dll
+D:\FightUtopia\FightUtopia\Temp\bin\Debug\nunit.framework.dll
+D:\FightUtopia\FightUtopia\Temp\bin\Debug\Unity.DataContract.dll
+D:\FightUtopia\FightUtopia\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+D:\FightUtopia\FightUtopia\obj\Debug\Assembly-CSharp-vs.csprojResolveAssemblyReference.cache
+D:\FightUtopia\FightUtopia\obj\Debug\Assembly-CSharp.dll
+D:\FightUtopia\FightUtopia\obj\Debug\Assembly-CSharp.pdb
